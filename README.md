@@ -4,4 +4,4 @@ Pushing all things related to Angela Yu's 2020/21 Web Dev Bootcamp.
 Its a JavaScript centric full stack Web Development bootcamp.
 
 # Highlight
-"__Projects__" directory is the main highlight of this repository.
+"__Projects_" directory is the main highlight of this repository.
