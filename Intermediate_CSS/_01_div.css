@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black
+}
+#first{
+    background: red;
+    border: 40px solid black;
+}
+#second{
+    margin-left: 200px;
+    background: blue;
+}
+#third{
+    margin-left: 400px;
+    background: green;
+}
