@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+</head>
+<body>
+    <div id="parent">
+        <div id="child-1">First Div</div>
+        <div id="child-2">Second Div </div>
+        <div id="child-3">Third Div</div>
+    </div>
+</body>
+<style>
+    #parent{
+        /* border: 1px solid black; */
+        height:600px;
+        background: rosybrown;
+        position: relative;
+    }
+    #child-1{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background: red;
+        display: inline-block;
+        top:400px;
+        left: 400px
+    }
+    #child-2{
+        position: absolute;
+        top: 0px;  
+        height: 200px;
+        width: 200px;
+        background: blue;
+        display: inline-block;
+    }
+    #child-3{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 200px;
+        left:200px;
+        background: green;
+        display: inline-block;
+    }
+</style>
+</html>
