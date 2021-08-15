@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right ,#39adf5, #efefef);
+}
+h1, h2{
+    color:blueviolet;
+    font-family: cursive;
+}
+.para-1{
+    font-size: 30px;
+    border: 2px solid red ;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.para-2{
+    background: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px dashed white;
+    padding-right: 20px;
+    padding-top: 12px;
+    height: 70px;
+}
+#one{
+    clip-path: circle();
+}
+#two{
+    border-radius: 50%;
+}
