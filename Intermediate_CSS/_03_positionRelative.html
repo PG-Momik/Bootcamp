@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative</title>
+</head>
+<body>
+    <div class="box" id="first">FIRST DIV</div>
+    <div class="box" id="second">SECOND DIV</div>
+    <div class="box" id="third">THIRD DIV</div>
+    
+</body>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        display: inline-block;
+        transition: 2s;
+        animation-delay: 5s;
+        position: relative;
+    }
+    #first{
+        background-color: red;
+        left: 422px;
+    }
+    #second{
+        background-color: royalblue;
+        position: relative;
+        right: 204px;
+    }
+    #third{
+        background-color: rosybrown;
+        position: relative;
+        right: 204px;
+    }
+</style>
+</html>
