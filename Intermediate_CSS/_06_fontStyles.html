@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Formatting</title>
+</head>
+<body>
+    <h1>
+     Font Formatting
+    </h1>
+    <div id="article">
+        <fieldset>
+            <legend><h3>Verdana</h3></legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore at quod quos asperiores distinctio explicabo, quo dicta. Aliquam harum expedita dolorum fugiat eius magni facere aliquid vitae delectus rerum.
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Anchor tags</legend>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+        </fieldset>
+    </div>
+    <div>
+        <ul>This is unordered list btw.
+            <li>Underline</li>
+            <li>Line Through</li>
+            <li>Increased Size</li>
+            <li>Writter in lowercase btw</li>
+        </ul>
+    </div>
+    <p>This text has weight : 700</p>
+</body>
+<style>
+    h1{
+        font-family:monospace;
+    }
+    #article{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: red;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        list-style: none;
+    }
+    li:nth-child(1){
+        text-decoration: underline;
+    }
+    li:nth-child(2){
+        text-decoration: line-through;
+    }
+    li:nth-child(3){
+        font-size: 30px;
+    }
+    li:nth-child(4){
+        text-transform: uppercase;
+    }
+    p{
+        font-weight:700;
+    }
+
+</style>
+</html>
