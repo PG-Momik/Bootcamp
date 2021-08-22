@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --background-color : #ff4c68;
+    --icon-color: #ff4d68;
+    --line-height : 1.5rem;
+    --font-weight: bold;
+    --color1: #000;
+    --color2: #fff;
+}
+.container-fluid{
+    width: 80%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    background: var(--background-color);
+    padding: 1%;
+}
+#main nav a{
+    color: var(--color2);
+    opacity: 0.8;
+}
+.brand{
+    font-size: 2rem;
+    
+}
+.main-row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#main h1{
+    font-weight: var(--font-weight);
+    font-size: 5rem;
+    color: var(--color2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-img{
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(25deg); 
+    margin-left: 30%;
+}
+@media screen and (max-width: 980px) {  
+    #main h1{
+        font-size: 3.5rem;
+    }
+    .main-img{
+        padding-top: 20px;
+        position: static;
+        transform: rotate(0deg);
+        margin-left: 5%;
+
+    }
+}
+#features{
+    position: relative;
+    z-index: 2;
+    background: var(--color2);
+    text-align: center;
+    line-height: var(--line-height);
+    padding-bottom: 5%;
+}
+#features h2{
+    font-weight: var(--font-weight);
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.feature-icons{
+    font-size: 5rem;
+    color: var(--icon-color);
+    padding-bottom: 3%;
+}
+
+
+#testimonials{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background: var(--background-color);
+    text-align: center;
+    color: var(--color2);
+}
+
+#testimonials h2{
+    color: var(--color2);
+    font-weight: var(--font-weight);
+}
+
+.testimonial-text::before{
+    content: '"';
+}
+
+.testimonial-text{
+    font-size: 1.5rem;
+}
+
+.testimonial-text::after{
+    content: '"';
+}
+.testimonial-image{
+    clip-path: circle();
+    height: 150px;
+}
+.testimonial-giver{
+    margin-left: 3%;
+    display: inline;
+}
+.testimonial-giver:before{
+    content: "-";
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    background: var(--color1);
+}
+
+#press{
+    padding-top:2%;
+    text-align: center;
+    line-height: var(--line-height);
+    background: var(--background-color);
+    color: var(--color2);
+    font-weight: var(--font-weight);
+    padding-bottom: 5%;
+}
+#press h2{
+    padding-bottom: 2%;
+}
+#press img{
+    max-width: 200px;
+}
+#cta{
+    background: var(--background-color);
+}
