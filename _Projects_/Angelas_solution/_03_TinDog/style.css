@@ -1,0 +1,140 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+#main{
+    background: #ff4c68;
+    color: #fff;
+    display: block;
+
+}
+.bordered{
+    border: 1px solid black;
+}
+.container-fluid{
+     padding: 3% 15%;
+}
+#main .container-fluid{
+    padding-bottom: 6%;
+}
+h1{
+    font-family: Montserrat-Black, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight: 900;
+    font-size: 2rem;
+}
+body{
+    font-family: Ubuntu, sans-serif;
+    overflow-x: hidden;
+}
+/* Navbar */
+nav{
+    padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light, sans-serif;
+    color: #fff;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+#features{
+    z-index: 1;
+    width: 100%;     
+    position: relative;
+    background: #fff;
+    /* bottom: 150px; */
+}
+.feature-row{
+    align-self: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+.feature-icons{
+    color: #ff4c68;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* testimonials */
+#testimonial{
+    text-align: center;
+    background: #ff4c68;
+    color: #fff;
+    font-weight: 900;
+}
+.testimonial-text{
+    font-size: 1.25rem;
+    font-family: Ubuntu;
+}
+.testimonial-text::before{
+    content: '"';
+}.testimonial-text::after{
+    content: '"';
+}
+.testimonial-image{
+    height: 150px;
+    width: 150px;
+    clip-path: circle();
+    display: inline;
+}
+.testimonial-giver{
+    display: inline;
+    padding-left: 1rem;
+}
+.testimonial-giver::before{
+    content: "-";
+}
+.hr{
+     background: #ff4c68;
+     margin: 0;
+     padding: 0;
+ }
+
+#press{
+    background: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logos{
+    width: 20%; 
+    margin: 20px;
+}
+
+
+#pricing{
+    text-align: center;
+}
+
+@media screen and (max-width:950px){
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        margin-left: 20%;
+    }
+}
