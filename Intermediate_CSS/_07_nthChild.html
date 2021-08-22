@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth Child</title>
+</head>
+<body>
+    <h1>Nth Child Selector</h1>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cat</li>
+        <li>Dog</li>
+        <li>Elastic</li>
+        <li>Fedora</li>
+        <li>Ghandi</li>
+        <li>Hercules</li>
+        <li>Iilahi</li>
+        <li>Jamaica</li>
+    </ul>
+    <hr>
+    <h1>Pseudo Selector</h1>
+    <p>The bottom quote has no Double Inverted Comma in the markup.</p>
+    <p class="quote">Honest is the best policy</p>
+</body>
+
+<style>
+    li:nth-child(odd){
+        color: white;
+        background: grey;
+    }
+    li:nth-child(even){
+        color: white;
+        background: black;
+    }
+    .quote::before{
+        content: '"';
+    }
+    .quote::after{
+        content: '"';
+    }
+</style>
+</html>
