@@ -1,0 +1,5 @@
+1. Do not out space in variable names.
+2. Use underscore " _ " if space is needed.
+3. Keep variable name short.
+4. Use camelcase for naming objects, functions and instances. 
+5. Start with underscore to indicate that variable or anything is private.
