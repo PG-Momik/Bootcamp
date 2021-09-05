@@ -1,0 +1,34 @@
+body{
+  text-align: center;
+  background: #393E46;
+  color: whitesmoke;
+}
+
+
+h1, h2{
+  text-align: center;
+}
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+.left-col{
+  text-align: right;
+}
+.left-col h2{
+  text-align: right;
+}
+.right-col{
+  text-align: left;
+}
+.right-col h2{
+  text-align: left;
+}
+
+.dice-img img{
+  width: 150px;
+  height: 150px;
+}
