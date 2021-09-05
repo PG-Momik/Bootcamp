@@ -1,0 +1,16 @@
+.bmi-fieldset{
+    width: 40%;
+    margin: auto auto;
+    text-align: center;
+}
+.measurements{
+    margin-top: 3%;
+}
+.bmi_calc{
+    margin-top: 5%;
+    color: white;
+    background-color: #39adf5;
+    border: 0px;
+    font-size: 1.5rem;
+    border-radius: 5%;
+}
